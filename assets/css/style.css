@@ -8,6 +8,7 @@
 
   /*Color*/
   --orange-color: #ff7b00;
+  --orangeshadow-color: #FBB16C;
   --yellow-color: #FEC903;
 
   /*========== Font and typography ==========*/
@@ -116,7 +117,7 @@ section {
   margin-top: 6rem;
 }
 .heading span {
-  color: rgb(115, 3, 167);
+  color: var(--orange-color);
 }
 header .logo {
   font-size: 1.9rem;
@@ -283,8 +284,8 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #FF7B00;
-  box-shadow: 0px 5px 18px #FBB16C;
+  background: var(--orange-color);
+  box-shadow: 0px 5px 18px var(--orangeshadow-color);
   font-family: "Nunito", sans-serif;
 }
 .home .btn span {
@@ -298,7 +299,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .home .btn:hover {
-  background: #1a047e;
+  background: var(--yellow-color);
 }
 .home .btn:hover i {
   transform: translateX(5px);
@@ -436,34 +437,34 @@ header .navbar ul li a:hover {
   text-transform: none;
 }
 .about .row .content .box-container .box p span {
-  color: #011aff;
+  color: var(--orange-color);
 }
-.resumebtn {
+.cvbtn {
   margin-top: 6rem;
 }
-.resumebtn .btn {
+.cvbtn .btn {
   padding: 1.7rem 3rem;
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
+  background: var(--orange-color);
+  box-shadow: 0px 5px 10px var(--orangeshadow-color);
   font-family: "Nunito", sans-serif;
 }
-.resumebtn .btn span {
+.cvbtn .btn span {
   font-weight: 600;
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
 }
-.resumebtn .btn i {
+.cvbtn .btn i {
   margin-left: 0.3rem;
   font-size: 1.2rem;
   transition: 0.3s;
 }
-.resumebtn .btn:hover {
-  background: #1a047e;
+.cvbtn .btn:hover {
+  background: var(--yellow-color);
 }
-.resumebtn .btn:hover i {
+.cvbtn .btn:hover i {
   transform: translateX(5px);
 }
 /* about media queries starts*/
