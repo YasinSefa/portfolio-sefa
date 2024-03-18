@@ -852,7 +852,7 @@ header .navbar ul li a:hover
   z-index: -2;
 }
 .experience .container {
-  padding: 10px 40px;
+  padding: 0px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
