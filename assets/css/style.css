@@ -991,6 +991,7 @@ header .navbar ul li a:hover
   }
   .experience .container {
     width: 100%;
+    padding: 10px 40px;
     padding-left: 8rem;
     padding-right: 2rem;
   }
@@ -1023,9 +1024,6 @@ header .navbar ul li a:hover
     font-size: 1.3rem !important;
     font-weight: 500 !important;
   }
-
-  .experience .container {
-    padding: 10px 40px;
 }
 /* experience media queries ends */
 /* experience section ends */
