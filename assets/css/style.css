@@ -283,12 +283,12 @@ header .navbar ul li a:hover
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: var(--orange-color);
   font-weight: 600;
   padding: 0.5rem 0;
 }
 .home .btn {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   position: absolute;
   line-height: 0;
   padding: 1.6rem 3rem;
@@ -333,7 +333,7 @@ header .navbar ul li a:hover
   font-size: 2rem;
   display: inline-block;
   line-height: 44px;
-  color: var(--yellow-color);
+  color: var(--orange-color);
   background-color: #09011b;
   width: 44px;
   height: 44px;
@@ -376,7 +376,7 @@ header .navbar ul li a:hover
     margin-top: 8rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    margin-top: -13.5rem;
   }
   .home .content p {
     font-size: 2.0rem;
@@ -410,12 +410,13 @@ header .navbar ul li a:hover
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
   transition: 0.3s;
   cursor: pointer;
 }
 .about .row .image img:hover {
-  mix-blend-mode: normal;
+    margin: -3rem;
+    width: 40rem;
+    box-shadow: 0 2px 50px rgba(0, 0, 0, 0.3);
 }
 .about .row .content {
   flex: 1 1 45rem;
@@ -508,12 +509,10 @@ header .navbar ul li a:hover
   }
   
 }
-/* about media queries ends*/
-/* about section ends */
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 100vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -620,6 +619,7 @@ header .navbar ul li a:hover
 .education .box-container .box:hover {
   transform: scale(1.03);
   box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 .education .box-container .box .image {
   flex: 1 1 20rem;
@@ -850,6 +850,18 @@ header .navbar ul li a:hover
   background-color: inherit;
   width: 50%;
 }
+
+.experience .timeline h2 {
+    color: white;
+}
+
+.experience .timeline h3 {
+    color: white;
+}
+
+.experience .timeline p {
+    color: white;
+}
 /*circles on timeline*/
 .experience .container::after {
   content: "\f0b1";
@@ -993,6 +1005,14 @@ header .navbar ul li a:hover
   }
   .morebtn {
     margin-top: 3rem;
+  }
+  .experience .timeline h2{
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+  .experience .timeline h3{
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
   }
 }
 /* experience media queries ends */
