@@ -376,7 +376,7 @@ header .navbar ul li a:hover
     margin-top: 8rem;
   }
   .home .image img {
-    margin-top: -10rem;
+    margin-top: -12rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -439,9 +439,7 @@ header .navbar ul li a:hover
   text-transform: none;
 }
 .about .row .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+    margin-top: 2rem;
   font-family: "Nunito";
   font-weight: 600;
 }
@@ -452,7 +450,7 @@ header .navbar ul li a:hover
   color: var(--orange-color);
 }
 .cvbtn {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .cvbtn .btn {
   padding: 1.7rem 3rem;
@@ -462,7 +460,14 @@ header .navbar ul li a:hover
   background: var(--orange-color);
   box-shadow: 0px 5px 10px var(--orangeshadow-color);
   font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
 }
+
 .cvbtn .btn span {
   font-weight: 600;
   font-size: 1.8rem;
@@ -486,7 +491,7 @@ header .navbar ul li a:hover
   }
   .about .row .image img {
     margin: 0 auto;
-    width: 60%;
+    width: 40%;
     mix-blend-mode: normal;
   }
   .about .row {
@@ -498,7 +503,9 @@ header .navbar ul li a:hover
   }
   .about .row .content .box-container {
     gap: 0;
+    display: none;
   }
+  
 }
 /* about media queries ends*/
 /* about section ends */
@@ -580,7 +587,7 @@ header .navbar ul li a:hover
 /* education section starts */
 .education {
   background: #e5ecfb;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -981,17 +988,17 @@ header .navbar ul li a:hover
   min-height: 60vh;
 }
 .contact .container {
-  max-width: 1050px;
+  max-width: 1500px;
   width: 100%;
   background: #fff;
   border-radius: 1.5rem;
-  margin: 2rem 5rem;
+  margin: 3rem 5rem;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .contact .container .content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 2.5rem 2rem;
 }
 .contact .content .image-box {
@@ -1224,17 +1231,6 @@ form .button-area {
     transform: scale(1.1);
   }
 }
-@media (max-width: 450px) {
-  .footer .box-container .box {
-    margin: 1.5rem;
-  }
-  .footer .box-container .box p {
-    padding: 0.7rem;
-  }
-  .footer .box-container .box .share a {
-    padding: 1.2rem;
-  }
-}
 /* footer section ends */
 
 /* common media queries starts*/
@@ -1247,6 +1243,18 @@ form .button-area {
   }
   section {
     padding: 2rem;
+  }
+  .footer .box-container .box {
+    margin: 1.5rem;
+  }
+  .footer .box-container .box p {
+    padding: 0.7rem;
+  }
+  .footer .box-container .box .share a {
+    padding: 1.2rem;
+  }
+  .about .row .content .box-container {
+    gap: 0;
   }
 }
 /* common media queries ends*/
