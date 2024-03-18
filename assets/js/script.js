@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Sefa";
-            $("#favicon").attr("href", "assets/images/favicon.png");
+            $("#favicon").attr("href", "assets/images/logo.png");
         }
         else {
             document.title = "Come Back To Portfolio";

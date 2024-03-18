@@ -488,6 +488,13 @@ header .navbar ul li a:hover
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
+    .home .content h2 {
+        font-size: 3.5rem;
+      }
+      .home .content h2 span {
+        font-size: 3.5rem;
+      }
+
   .about .row .image {
     margin-top: 2rem;
   }
