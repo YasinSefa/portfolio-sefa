@@ -495,6 +495,8 @@ header .navbar ul li a:hover
         font-size: 3.5rem;
       }
 
+      
+
   .about .row .image {
     margin-top: 2rem;
   }
@@ -1021,6 +1023,9 @@ header .navbar ul li a:hover
     font-size: 1.3rem !important;
     font-weight: 500 !important;
   }
+
+  .experience .container {
+    padding: 10px 40px;
 }
 /* experience media queries ends */
 /* experience section ends */
