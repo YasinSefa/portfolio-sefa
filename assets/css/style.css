@@ -114,7 +114,7 @@ section {
   color: rgb(32, 32, 32);
   font-weight: 800;
   text-align: center;
-  margin-top: 6rem;
+  margin: 6rem 6rem;
 }
 .heading span {
   color: var(--orange-color);
@@ -338,7 +338,7 @@ header .navbar ul li a:hover
   width: 44px;
   height: 44px;
   text-align: center;
-  margin-right: 9px;
+  margin-right: 8px;
   border-radius: 100%;
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -488,14 +488,14 @@ header .navbar ul li a:hover
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
-    .home .content h2 {
-        font-size: 3.5rem;
-      }
-      .home .content h2 span {
-        font-size: 3.5rem;
-      }
 
-      
+  .home .content h2 {
+        font-size: 3.5rem;
+  }
+
+  .home .content h2 span {
+        font-size: 3.5rem;
+  }
 
   .about .row .image {
     margin-top: 2rem;
@@ -517,6 +517,7 @@ header .navbar ul li a:hover
     display: none;
   }
   
+
 }
 
 /* skills section starts */
@@ -1025,8 +1026,6 @@ header .navbar ul li a:hover
     font-weight: 500 !important;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
 
 /* contact section starts */
 .contact {
@@ -1180,6 +1179,10 @@ form .button-area {
   .contact .content form {
     width: 100%;
     margin-right: 2rem;
+  }
+
+  .heading {
+    margin-bottom: .5rem;
   }
 }
 /* contact section media queries ends */
