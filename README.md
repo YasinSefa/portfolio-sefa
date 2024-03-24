@@ -1,7 +1,6 @@
 ## Portfolio-Website
 Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 
-<a href="https://jigarsable.netlify.app/" target="_blank">**Visit Now** 🚀</a>
 
 
 ## 📌 Tech Stack
@@ -25,5 +24,3 @@ If you want to contact me, you can reach me through below handles.
 
 © 2024 Yasin Sefa Aksoy
 
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
