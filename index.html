@@ -287,7 +287,7 @@
 </section>
 <!-- experience section ends -->
 
-<!-- contact section starts -->
+<!-- contact section starts  onsubmit="sendEmail(); reset(); return false;"  -->
 <section class="contact" id="contact">
 
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
@@ -297,8 +297,7 @@
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-      <form onsubmit="sendEmail(); reset(); return false;" id="contact-form">
-
+      <form id="contact-form">
         <div class="form-group">
           <div class="field">
             <input type="text" id="name" name="name" placeholder="Name" required>
@@ -318,7 +317,7 @@
           </div>
         </div>
         <div class="button-area">
-          <button type="submit">
+          <button type="submit" id="submitBtn" onclick="sendMail()">
             Submit <i class="fa fa-paper-plane"></i></button>
         </div>
       </form>
@@ -430,3 +429,12 @@
 </html>
 
 <!-- 313e8228-bc86-4dd3-8e30-4557a3537a53 -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+  (function () {
+    emailjs.init({
+      publicKey: "21yBI1tgbO5-CvWaj",
+    });
+  })();
+</script>

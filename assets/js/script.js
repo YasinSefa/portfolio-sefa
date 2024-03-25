@@ -215,5 +215,15 @@ srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
 
 // Send Email Contact
+function sendMail() {
+    let params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        phone: document.getElementById("phone").value,
+        message: document.getElementById("message").value,
+    }
+
+    emailjs.send("service_1njyjz3", "template_ntlpsdl", params).then(alert("Email Sent"))
+}
 
 

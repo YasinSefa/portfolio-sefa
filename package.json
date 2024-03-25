@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "path": "^0.12.7"
   }
 }
