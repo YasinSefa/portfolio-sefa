@@ -199,7 +199,7 @@
   </div>
 
   <div class="viewall">
-    <a href="/projects" class="btn"><span>View All</span>
+    <a href="https://github.com/YasinSefa" class="btn"><span>View All</span>
       <i class="fas fa-arrow-right"></i>
     </a>
   </div>
@@ -297,23 +297,23 @@
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-      <form id="contact-form">
+      <form onsubmit="sendEmail(); reset(); return false;" id="contact-form">
 
         <div class="form-group">
           <div class="field">
-            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" id="name" name="name" placeholder="Name" required>
             <i class='fas fa-user'></i>
           </div>
           <div class="field">
-            <input type="text" name="email" placeholder="Email" required>
+            <input type="text" id="email" name="email" placeholder="Email" required>
             <i class='fas fa-envelope'></i>
           </div>
           <div class="field">
-            <input type="text" name="phone" placeholder="Phone">
+            <input type="text" id="phone" name="phone" placeholder="Phone">
             <i class='fas fa-phone-alt'></i>
           </div>
           <div class="message">
-            <textarea placeholder="Message" name="message" required></textarea>
+            <textarea placeholder="Message" id="message" name="message" required></textarea>
             <i class="fas fa-comment-dots"></i>
           </div>
         </div>
@@ -405,6 +405,23 @@
 
 <script src="./assets/js/script.js"></script>
 
+
+<!--Send Mail-->
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+  function sendEmail() {
+    Email.send({
+      SecureToken: "827c75de-21ff-4945-8af3-9bb85eedf59a",
+      To: 'yasinaxoy2003@gmail.com',
+      From: "ysnsfaksoy@gmail.com",
+      Subject: "This is the subject",
+      Body: "And this is the body"
+    })
+      .then(function (message) {
+        alert("mail sent successfully");
+      });
+  }
+</script>
 </body>
 
 </html>

@@ -50,33 +50,33 @@
     }
   },
   {
-    "name": "Mosque Web App",
+    "name": "Earthquake App",
     "desc": "I developed the admin panel of the Mosque Web application, which I developed for the Presidency of Religious Affairs, in C# .net core. I used Html, Css and Js.",
-    "image": "mosque",
+    "image": "earthquake",
     "category": "mern",
     "links": {
       "view": "",
-      "code": "https://github.com/YasinSefa/MosqueApp"
+      "code": "https://github.com/YasinSefa/EarthQuakeApp"
     }
   },
   {
-    "name": "ResumeGen",
-    "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-    "image": "resumegen",
+    "name": "Electric Vehicle App",
+    "desc": "I used Java in my ''ChargeAll'' charging station application for electric cars that I developed in Android Studio.",
+    "image": "chargeall",
     "category": "mern",
     "links": {
-      "view": "https://resumegenx.netlify.app/",
-      "code": "https://github.com/jigar-sable/resumegen"
+      "view": "",
+      "code": "https://github.com/YasinSefa/ElectricVehicle"
     }
   },
   {
-    "name": "React-Projects",
-    "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
-    "image": "reactprojects",
+    "name": "E-Commerce(E-Ticaret) App",
+    "desc": "Full-Stack project, I developed the e-commerce application I developed by participating in Engin Demiroğ camp with Angular using SOLID principles in C# language.",
+    "image": "eticaret",
     "category": "mern",
     "links": {
       "view": "https://reactjsprojects.herokuapp.com/",
-      "code": "https://github.com/jigar-sable/React-Projects"
+      "code": "https://github.com/YasinSefa/MyFirstProject"
     }
   },
   {
@@ -90,13 +90,13 @@
     }
   },
   {
-    "name": "JavaScript Projects Website",
+    "name": "Chatbot",
     "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
     "image": "jspro",
     "category": "basicweb",
     "links": {
-      "view": "https://jigar-sable.github.io/JavaScript-Projects",
-      "code": "https://github.com/jigar-sable/JavaScript-Projects"
+      "view": "https://www.linkedin.com/feed/update/urn:li:activity:7177662257755996160/",
+      "code": "https://drive.google.com/file/d/19N7Vpf8j76Pjfwof7ayImfz_6yde3538/view?usp=drive_link"
     }
   },
   {

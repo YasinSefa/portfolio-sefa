@@ -238,9 +238,11 @@ header .navbar ul li a:hover{
 .work .box-container .box .content .tag h3{
   font-size: 2rem;
 }
+
 .work .box-container .box:hover .content{
-  top: 25%;
+  top: 0%;
 }
+
 .work .desc {
   margin: 2rem;
   display: flex;
