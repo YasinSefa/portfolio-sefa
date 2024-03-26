@@ -37,22 +37,7 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
-    // <!-- emailjs to mail contact form data -->
 
 });
 
@@ -71,7 +56,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend developer", "backend developer", "web developer"],
+    strings: ["Frontend Developer", "Backend Developer", "Web Developer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -223,7 +208,13 @@ function sendMail() {
         message: document.getElementById("message").value,
     }
 
-    emailjs.send("service_1njyjz3", "template_ntlpsdl", params).then(alert("Email Sent"))
+    if (params.name != "" && params.email != "" && params.phone != "" && params.message != "") {
+        console.log("Name boş", params)
+        emailjs.send("service_1njyjz3", "template_ntlpsdl", params).then(alert("Email Sent"))
+        alert("Calıstı")
+    }
+
+
 }
 
 

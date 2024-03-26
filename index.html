@@ -50,7 +50,7 @@
 
   <div class="content">
     <h2>Hi There,<br /> I'm Yasin Sefa <span>Aksoy</span></h2>
-    <p>i am into Jr. <span class="typing-text"></span></p>
+    <p>I Am Into Jr. <span class="typing-text"></span></p>
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
@@ -308,7 +308,7 @@
             <i class='fas fa-envelope'></i>
           </div>
           <div class="field">
-            <input type="text" id="phone" name="phone" placeholder="Phone">
+            <input type="number" id="phone" name="phone" placeholder="Phone" required>
             <i class='fas fa-phone-alt'></i>
           </div>
           <div class="message">
@@ -338,17 +338,17 @@
     </div>
 
     <div class="box">
-      <h3>quick links</h3>
-      <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
-      <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
-      <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
-      <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
-      <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
-      <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      <h3>Quick Links</h3>
+      <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+      <a href="#about"><i class="fas fa-chevron-circle-right"></i> About</a>
+      <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Skills</a>
+      <a href="#education"><i class="fas fa-chevron-circle-right"></i> Education</a>
+      <a href="#work"><i class="fas fa-chevron-circle-right"></i> Work</a>
+      <a href="#experience"><i class="fas fa-chevron-circle-right"></i> Experience</a>
     </div>
 
     <div class="box">
-      <h3>contact info</h3>
+      <h3>Contact Info</h3>
       <p> <i class="fas fa-phone"></i>+90 543-885-9864</p>
       <p> <i class="fas fa-envelope"></i>ysnsfaksoy@gmail.com</p>
       <p> <i class="fas fa-map-marked-alt"></i>Çankaya, Ankara - 06200</p>
@@ -404,32 +404,13 @@
 
 <script src="./assets/js/script.js"></script>
 
-
-<!--Send Mail-->
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-
-<script>
-  function sendEmail() {
-    Email.send({
-      SecureToken: "9765b328-abd5-48b1-8665-b7fad005e8f4",
-      To: 'ysnsfaksoy@gmail.com',
-      From: "ysnsfaksoy@gmail.com",
-      Subject: "This is the subject",
-      Body: "And this is the body"
-    })
-      .then(function (message) {
-        alert("mail sent successfully");
-      });
-  }
-</script>
+<!-- Send Mail -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </body>
-
-9765b328-abd5-48b1-8665-b7fad005e8f4
 
 </html>
 
-<!-- 313e8228-bc86-4dd3-8e30-4557a3537a53 -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+
 </script>
 <script type="text/javascript">
   (function () {
