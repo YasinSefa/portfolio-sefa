@@ -362,7 +362,7 @@ header .navbar ul li a:hover
   background-color: #070707;
 }
 .social-icons a.instagram:hover {
-  background-color: #ee00da;
+  background-color: #C13584;
 }
 /* social icons end */
 
@@ -538,7 +538,7 @@ header .navbar ul li a:hover
   padding: 2rem;
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 8rem;
 }
 .skills .container .row {
   display: grid;
@@ -555,8 +555,8 @@ header .navbar ul li a:hover
   transition: 0.2s;
 }
 .skills .container .bar:hover {
-  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
-  background-color: rgba(0, 0, 0, 0.9) !important;
+  box-shadow: 0 0px 20px rgba(255, 255, 255, 0.8) !important;
+  background-color: var(--yellow-color) !important;
 }
 .skills .container .bar .info {
   display: flex;
@@ -1162,7 +1162,7 @@ form .button-area {
   font-family: "Nunito", sans-serif;
 }
 .button-area button:hover {
-  background: #421cecf5;
+  background: var(--yellow-color);
 }
 .button-area span {
   font-size: 17px;

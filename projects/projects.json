@@ -52,7 +52,7 @@
   {
     "name": "Earthquake App",
     "desc": "I developed the admin panel of the Mosque Web application, which I developed for the Presidency of Religious Affairs, in C# .net core. I used Html, Css and Js.",
-    "image": "earthquake",
+    "image": "",
     "category": "mern",
     "links": {
       "view": "",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Chatbot",
-    "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
+    "desc": "This study develops a chatbot for Metro Istanbul, leveraging a NeuralNet model and data from Istanbul Metropolitan Municipality. It expands the dataset using GPT technology and integrates Python libraries for natural language processing, enhancing user experience and addressing urban transportation challenges.",
     "image": "chatbot",
     "category": "basicweb",
     "links": {
